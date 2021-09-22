@@ -31,3 +31,30 @@ new Vue({
 //     }, this.message)
 //   }
 // })
+
+// const childComp = {
+//   template: '<div>{{msg}}</div>',
+//   data () {
+//     return {
+//       msg: 'hello world'
+//     }
+//   },
+//   created () {
+//     console.log('child created')
+//   },
+//   mounted () {
+//     console.log('chilid mounted')
+//   }
+// }
+
+// Vue.mixin({
+//   created () {
+//     console.log('parent created')
+//   }
+// })
+
+// // eslint-disable-next-line no-new
+// new Vue({
+//   el: '#root',
+//   render: h => h(childComp)
+// })
